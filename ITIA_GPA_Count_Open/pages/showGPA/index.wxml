@@ -1,0 +1,31 @@
+<!--pages/showGPA/index.wxml-->
+<view class="view_titlebox">
+    <image class="image_ITIALogo" src="../../img/ITIALogo.jpg"></image>
+    <view class="view_title">平均学分成绩单</view>
+</view>
+
+<view class="GPAList">
+
+    <view class="listTip">姓名：{{Name}}</view>
+    <view class="listTip">平均学分绩点：{{GPA}} / 5.0</view>
+    <view class="listTip">平均学分成绩：{{ACS}} / 100</view>
+
+    <view class="listTitleBox">
+        <view class="listBox_Title_Name">课程名称</view>
+        <view class="listBox_Title_Score">成绩</view>
+        <view class="listBox_Title_Score">学分</view>
+        <view class="listBox_Title_Score">GP</view>
+    </view>
+
+    <view class="listBox" wx:for="{{GPAlist}}">
+        <view class="listBox_Name">{{item.name}}</view>
+        <view class="listBox_Score">{{item.score}}</view>
+        <view class="listBox_Score">{{item.credit}}</view>
+        <view class="listBox_Score">{{item.GP}}</view>
+    </view>
+
+
+</view>
+
+<button type="primary" bindtap="Button_Save" style="margin-top: 50rpx;">保存成绩单</button>
+<view style="margin:80rpx; margin-top:20rpx;">保存的成绩单可以随时在“首页-已保存的成绩单”中查看。</view>

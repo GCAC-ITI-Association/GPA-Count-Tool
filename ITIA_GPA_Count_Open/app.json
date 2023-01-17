@@ -1,0 +1,18 @@
+{
+    "pages": [
+        "pages/main/index",
+        "pages/index/index",
+        "pages/showGPA/index",
+        "pages/standard/index",
+        "pages/smartTip/index",
+        "pages/saveList/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "互联科创绩点计算器",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

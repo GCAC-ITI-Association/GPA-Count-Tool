@@ -1,0 +1,88 @@
+.view_titlebox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.view_title{
+    margin-bottom: 10rpx;
+    font-size: 1.8rem;
+}
+
+
+.image_ITIALogo{
+    width: 200rpx;
+    height: 180rpx;
+    margin-bottom: 20rpx;
+    margin-top: 50rpx;
+}
+
+.GPAList{
+    margin: 30rpx;
+    margin-left: 80rpx;
+}
+
+.listTip{
+    font-weight: bold;
+    margin-bottom: 20rpx;
+}
+
+.listTitleBox{
+    margin-top: 20rpx;
+    margin-bottom: 10rpx;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.listBox_Title_Name{
+    height: 45rpx;
+    width: 350rpx;
+
+    overflow:hidden;   
+    text-overflow:ellipsis;   
+    white-space:nowrap; 
+
+    font-weight: bold;
+}
+
+.listBox_Title_Score{
+    height: 45rpx;
+    width: 70rpx;
+    margin-left: 20rpx;
+
+    overflow:hidden;   
+    text-overflow:ellipsis;   
+    white-space:nowrap; 
+
+    font-weight: bold;
+    text-align: center;
+}
+
+.listBox{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.listBox_Name{
+    height: 45rpx;
+    width: 350rpx;
+
+    overflow:hidden;   
+    text-overflow:ellipsis;   
+    white-space:nowrap; 
+
+}
+
+.listBox_Score{
+    height: 45rpx;
+    width: 70rpx;
+    margin-left: 20rpx;
+
+    overflow:hidden;   
+    text-overflow:ellipsis;   
+    white-space:nowrap; 
+    text-align: center;
+}

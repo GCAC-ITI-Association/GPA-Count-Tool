@@ -1,0 +1,28 @@
+<!--index.wxml-->
+
+<view class="view_titlebox">
+  <image class="image_gcacLogo" src="../../img/ITIALogo.jpg"></image>
+  <view class="view_title">成绩单智能生成</view>
+  <view class="view_title_tip">该功能仅支持广州民航学院教务系统/微校的成绩单识别</view>
+  <view class="view_title_tip" style="color: red; font-weight: bold;">首次使用请务必查看使用说明，需要按照规范截图</view>
+  <view class="view_title_tip" style="color: red; font-weight: bold;">！！！截图要严格按照使用说明里的规范！！！</view>
+  <view class="view_title_tip" style="color: red; font-weight: bold;">！！！截图要严格按照使用说明里的规范！！！</view>
+  <view class="view_title_tip" style="color: red; font-weight: bold;">！！！截图要严格按照使用说明里的规范！！！</view>
+  <input class="weui-input" placeholder="请输入你的姓名" bindinput="Input_nameInput"/>
+</view>
+
+<radio-group class="radioGroup_TypeSelect" bindchange="radioChange">
+  <radio value="jw" checked="true"/>教务成绩表   
+  <radio style="margin-left: 30rpx;" value="wx"/>微校成绩表
+</radio-group>
+
+
+<button class="button" type="primary" bindtap="Button_Select">选择成绩表</button>
+<button class="button" type="default" bindtap="Button_Tip">使用说明</button>
+
+<view class="view_titlebox" style="margin-top: 80rpx;">
+  <view class="view_title_tip">该功能目前处于测试阶段，有任何问题、Bug或者功能建议等都可以在“GCAC 互联科创”公众号留言反馈，或者发送邮件至 liyouming@gcacitia.com</view>
+  <view class="view_title_tip" style="font-weight: bold; margin-top: 40rpx;">反馈及帮助、电脑免费维修等请关注公众号</view>
+  <view class="view_title_tip" style="font-weight: bold;">点开二维码后长按即可关注</view>
+  <image style="width: 300rpx; height: 300rpx;" src="../../img/itiagzh.jpg" bindtap="Image_Show"></image>
+</view>

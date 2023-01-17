@@ -1,0 +1,11 @@
+
+<view class="view_titlebox">
+  <image class="image_gcacLogo" src="../../img/ITIALogo.jpg"></image>
+  <view class="view_title">成绩单生成</view>
+  <view class="view_title_tip">该功能支持几乎所有五分制绩点的计算</view>
+  <view class="view_title_tip">按照输入框内提示的格式输入课程信息点击计算即可</view>
+  <input class="input_name" placeholder="请输入你的姓名" value="{{userName}}" bindinput="Input_nameInput"/>
+  <textarea class="textarea_score" maxlength="-1" value="{{scoreData}}" placeholder="请输入成绩信息，格式如下：\n课程名 学分 成绩\n\n例：\n高等数学 3 90\n大学英语 4 85" bindinput="Textarea_InfoInput"/>
+</view>
+
+<button class="button" type="primary" bindtap="Button_Get">一键计算</button>

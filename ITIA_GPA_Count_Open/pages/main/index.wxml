@@ -1,0 +1,24 @@
+<view class="view_titlebox">
+  <image class="image_gcacLogo" src="../../img/ITIALogo.jpg"></image>
+  <view class="view_title">绩点计算器</view>
+
+  <view style="background-color: #5a91f7;" class="view_Join" bindtap="Button_KSJS">
+    <view class="view_Join_Title">开始计算</view>
+  </view>
+  <view style="background-color: #c8bfe7;" class="view_Join" bindtap="Button_ZNSC">
+    <view class="view_Join_Title">智能生成（仅支持广州民航）</view>
+  </view>
+  <view style="background-color: #32abd1;" class="view_Join" bindtap="Button_BCLS">
+    <view class="view_Join_Title">已保存的成绩单</view>
+  </view>
+</view>
+
+<view class="view_titlebox" style="margin-top: 40rpx;">
+  <view class="view_title_tip">广州民航学院互联网科技创新协会 李佑铭 开发</view>
+  <view class="view_title_tip">版本：0.1.0 Beta</view>
+  <view class="view_title_tip" style="font-weight: bold; margin-top: 40rpx;">反馈及帮助、电脑免费维修等请关注公众号</view>
+  <view class="view_title_tip" style="font-weight: bold;">点开二维码后长按即可关注</view>
+  <image style="width: 300rpx; height: 300rpx;" src="../../img/itiagzh.jpg" bindtap="Image_Show"></image>
+</view>
+
+<official-account></official-account>

@@ -1,0 +1,6 @@
+<view class="view_titlebox">
+  <view wx:for="{{savelist}}" style="background-color: #5a91f7;" class="view_Join" bindtap="Button_Save" data-id="{{index}}">
+    <view class="view_Join_Title">ID:{{index}} {{item.name}} GPA：{{item.GPA}}</view>
+  </view>
+
+</view>
